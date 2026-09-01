@@ -1,18 +1,7 @@
-1. Indique el Token Único que generó para este trabajo.
-- el token fue: peylw-2026-quintulen-3932-92
-2. ¿Qué salida obtuvo de ejecutar git status justo antes de realizar su primer commit? (Copie y pegue la salida literal).
-- On branch main
-
-    No commits yet
-
-    Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-        new file:   index.html
-
-    Untracked files:
-    (use "git add <file>..." to include in what will be committed)
-        README.md
-        REFLEXION.md
-        capturas/
-3. Explique con sus palabras cuál es la diferencia entre el área de preparación (staging area) y el directorio de trabajo (working directory) de Git.
-- el directorio de trabajo es donde tengo los archivos en mi computadora local, mientras que el área de preparación es cuando se hace git add a un archivo o a todos con el punto, y los dejo listos para hacer el push al repositorio.
+1. Indique el nombre exacto de la imagen que guardó en su carpeta img/ y el valor del atributo alt que le asignó en acercade.html.
+- Nombre de la imagen: carlos-quintulen-foto.png
+- Valor del atributo alt: Foto de Carlos Quintulen
+1. ¿Por qué es fundamental utilizar etiquetas semánticas como `<main>` o `<nav>` en lugar de usar etiquetas genéricas `<div>` para estructurar todo el sitio?.
+- Es fundamental porque los motores de busqueda se fijan en estas etiquetas para un mejor posicionamiento de las páginas, es decir que google las pueda mostrar entre las primeras cuando se realiza una búsqueda.
+1. ¿Cómo verificó que las rutas de los enlaces en la barra de navegación eran correctas tanto en el entorno local como tras desplegar en GitHub Pages?.
+- Tanto en el entorno local como en GitHub verifíque que los enlaces eran los correctos haciendo click en cada uno es decir en Inicio, y en Acerca de, o también cambiando el enlace en la dirección url, en el inicio que aparece index.html cambien a acercade.html y viceversa.
