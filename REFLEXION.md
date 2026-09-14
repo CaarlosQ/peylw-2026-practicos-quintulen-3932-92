@@ -1,18 +1,7 @@
-1. Indique el Token Único que generó para este trabajo.
-- el token fue: peylw-2026-quintulen-3932-92
-2. ¿Qué salida obtuvo de ejecutar git status justo antes de realizar su primer commit? (Copie y pegue la salida literal).
-- On branch main
-
-    No commits yet
-
-    Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-        new file:   index.html
-
-    Untracked files:
-    (use "git add <file>..." to include in what will be committed)
-        README.md
-        REFLEXION.md
-        capturas/
-3. Explique con sus palabras cuál es la diferencia entre el área de preparación (staging area) y el directorio de trabajo (working directory) de Git.
-- el directorio de trabajo es donde tengo los archivos en mi computadora local, mientras que el área de preparación es cuando se hace git add a un archivo o a todos con el punto, y los dejo listos para hacer el push al repositorio.
+Responda en su archivo REFLEXION.md:
+1. Indique el código HTML literal que utilizó para definir el campo del Código Postal con su correspondiente expresión de patrón (pattern) y atributo title.
+- `<input type="text" id="cp" name="cp" pattern="^[A-Z]\d{4}[A-Z]{3}$" title="El formato debe ser una letra mayúscula, cuatro dígitos y tres letras mayúsculas (Ej: R8500AAF)">`
+2. Explique para qué sirve la etiqueta <label> en los formularios y cómo se asocia correctamente a un campo de entrada mediante el atributo for.
+- La etiqueta `<label>` sirve para mostrar el título descriptivo para un elemento de interfaz de usuario en un formulario. Esto mejora la accesibilidad y la usabilidad, ya que al hacer clic sobre el texto del `<label>`, el navegador detecta cual es el campo que se quiere llenar. Para asociarlo correctamente, el valor del atributo `for` en la etiqueta `<label>` debe ser exactamente igual al valor del atributo `id` del campo de entrada.
+3. ¿Cómo se comportan los campos de selección circular (radio) cuando tienen diferentes atributos name vs. cuando comparten el mismo name?
+- Cuando los botones de tipo `radio` comparten el mismo atributo `name`, el navegador los agrupa, es decir, solo se puede seleccionar una opción de los que estan agrupados. Si se les asignan atributos `name` diferentes, el navegador los trata como elementos independientes, permitiendo seleccionar varios botones al mismo tiempo.
