@@ -1,0 +1,6 @@
+- Nombre y Apellido: Carlos Quintulen
+- Legajo/Matrícula: CURZAS-8092
+- Últimos 4 dígitos del DNI: 3932
+- Fecha de Entrega: 2026-10-10
+- Enlace al Repositorio de GitHub: https://github.com/CaarlosQ/peylw-2026-practicos-quintulen-3932-92/laboratorio_4
+- Enlace a la Págnia de GitHub Pages: https://caarlosq.github.io/peylw-2026-practicos-quintulen-3932-92/
